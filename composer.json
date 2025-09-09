@@ -1,6 +1,19 @@
 {
     "name": "kishan/audit-log",
     "description": "Audit log package to track model changes in Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dasadiya Kishan",
+            "email": "kishand956@gmail.com"
+        }
+    ],
+    "keywords": ["laravel", "audit-log", "logging", "model-events"],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+    },
     "autoload": {
         "psr-4": {
             "Kishan\\AuditLog\\": "src/"
@@ -14,5 +27,5 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true
 }
