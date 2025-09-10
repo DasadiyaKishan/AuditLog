@@ -17,13 +17,14 @@ composer require kishan/audit-log
 ## Service Provider (for Laravel < 5.5)
 
 If you are using Laravel 5.4 or lower, add the service provider manually in config/app.php:
-
+```php
 'providers' => [
     Kishan\AuditLog\AuditLogServiceProvider::class,
 ];
 
-⚙️ Publish & Migrate
+## ⚙️ Publish & Migrate
 Publish the migration and run the database migrations:
+```php
 php artisan vendor:publish --provider="Kishan\AuditLog\AuditLogServiceProvider" --tag="migrations"
 php artisan migrate
 
