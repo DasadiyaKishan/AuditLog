@@ -14,7 +14,7 @@ You can install the package via Composer:
 ```bash
 composer require kishan/audit-log
 
-Service Provider (for Laravel < 5.5)
+## Service Provider (for Laravel < 5.5)
 
 If you are using Laravel 5.4 or lower, add the service provider manually in config/app.php:
 
